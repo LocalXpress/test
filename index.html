@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Please start playing</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() 
+    {
+        var cars = ["Saab", "Volvo", "BMW","Porche","Auston"];
+        var text="";
+        for(i=0;i<5;i++)
+    {
+        text+=cars[i]+"<br>";
+    }
+document.getElementById("demo").innerHTML = text;
+    }
+</script>
+
+</body>
+</html>
